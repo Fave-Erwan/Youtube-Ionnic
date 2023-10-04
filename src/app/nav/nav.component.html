@@ -1,0 +1,30 @@
+
+<!-- Nav -->
+<div id="container flex" class="theme">
+  <ion-grid>
+
+   
+    <ion-row>
+
+      <ion-col>
+        <ion-thumbnail>
+          <img alt="Silhouette of mountains" src="\assets\img\Yutube.jpg" />
+        </ion-thumbnail>
+      </ion-col>
+
+<ion-col>
+<ion-searchbar animated="true" showCancelButton="focus" color="dark" placeholder="Search"></ion-searchbar>
+</ion-col>
+
+
+  <ion-chip (click)="navigate()" class="chip">
+    <ion-avatar >
+      <img alt="Silhouette of a person's head" src="/assets/img/avatar.svg" />
+    </ion-avatar>
+    <ion-label>{{user1.nickname}}</ion-label>
+  </ion-chip>
+
+<ion-button fill="outline" color="dark" (click)="onClickTest()" class="deconnection">Se Deconnecter</ion-button>
+</ion-row>
+</ion-grid>
+</div>

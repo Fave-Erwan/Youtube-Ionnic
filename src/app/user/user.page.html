@@ -1,0 +1,73 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+ <!-- Nav bar -->
+  <app-nav></app-nav>
+
+  <!--Content -->
+
+  <ion-title>User</ion-title>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-text>
+          ID :
+        </ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-text>
+          Nom :
+        </ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-text>
+          Prenom :
+        </ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-text>
+          Pseudo :
+        </ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-text>
+          Age :
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-text>
+          {{user.id}}
+        </ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-text>
+          {{user.firstname}}
+        </ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-text>
+          {{user.lastname}}
+        </ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-text>
+          {{user.nickname}}
+        </ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-text>
+          {{user.age}}
+        </ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  
+</ion-content>
